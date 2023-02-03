@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.helpUsBlock {
+    height: 470px;
+    width: 1285px;
+    border-radius: 59px;
+    background: #F7F8F9;
+    display: flex;
+    margin: auto;
+}
+
+.helpUsBlock__leftBlock {
+    width: 320px;
+    height: 282px;
+    margin-left: 74px;
+    padding-top: 91px;
+}
+
+.helpUsBlock__leftBlock-title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    color: #122537;
+}
+
+.helpUsBlock__leftBlock-title span {
+    color: #EB008D;
+}
+
+.helpUsBlock__leftBlock-description {
+    margin-top: 30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #122537;
+    width: 280px;
+}
+
+.helpUsBlock__leftBlock-button {
+    background: #EB008D;
+    border-radius: 10px;
+    width: 185px;
+    height: 60px;
+    border: 2px solid #EB008D;
+    color: #FFFFFF;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.helpUsBlock__leftBlock-button:hover {
+    background: #FDE0F1;
+    border: 2px solid #FDE0F1;
+    color: #EB008D;
+}
+
+.helpUsBlock__middleBlock {
+    height: 314.8091735839844px;
+    width: 474.9190368652344px;
+    background: url('./HelpProjectBlockImg.png');
+    margin-top: 70px;
+}
+
+.helpUsBlock__rightBlock {
+    height: 408px;
+    width: 301px;
+    margin-left: 48px;
+    padding-top: 36px;
+}
+
+.helpUsBlock__rightBlock-item {
+    height: 138px;
+    width: 301px;
+    box-sizing: border-box;
+    padding-top: 16px;
+    border-bottom: 1px solid #C4C4C4;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: #122537;
+}
+
+.helpUsBlock__rightBlock-item:last-child {
+    border: none;
+}
+
+.helpUsBlock__rightBlock-item:last-child>div {
+    border: none;
+    margin-top: 7px;
+}
+
+.helpUsBlock__rightBlock-item span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #67747F;
+}
+
+.helpUsBlock__rightBlock-link {
+    margin-top: 7px;
+    height: 24px;
+}
+
+.helpUsBlock__rightBlock-link>a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #EB008D;
+}
+
+.helpUsBlock__rightBlock-link>a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 414px) {
+    .helpUsBlock {
+        display: block;
+        height: 669px;
+        width: 290px;
+        border-radius: 24px;
+        margin: auto;
+    }
+
+    .helpUsBlock__leftBlock {
+        margin-left: 19px;
+        padding-top: 24px;
+        height: 201px;
+    }
+
+    .helpUsBlock__leftBlock-title {
+        width: 241px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 28px;
+    }
+
+    .helpUsBlock__leftBlock-description {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 9px;
+        width: 246px;
+    }
+
+    .helpUsBlock__leftBlock-button {
+        height: 60px;
+        width: 252px;
+        margin-top: 16px;
+    }
+
+    .helpUsBlock__middleBlock {
+        display: none;
+    }
+
+    .helpUsBlock__rightBlock {
+        margin-left: 19px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .helpUsBlock__rightBlock-item {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        width: 252px;
+    }
+}
+
+/*главный экран*/
+
+.mainScreen {
+    display: flex;
+}
+
+.mainScreen__banner {
+    background-image: url('./mainBanner.png');
+    height: 333px;
+    width: 957px;
+    border-radius: 19.91111183166504px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.mainScreen__banner div {
+    margin-left: 57.6px;
+    margin-top: 41.5px;
+    height: 126px;
+    width: 347.022216796875px;
+}
+
+.mainScreen__banner div:nth-child(2) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16.5px;
+    height: 102px;
+    width: 361px;
+}
+
+.mainScreen__discounts {
+    background-image: url('./discountsBackground.png');
+    height: 333px;
+    width: 299px;
+    border-radius: 19.91111183166504px;
+    margin-left: 30px;
+}
+
+.mainScreen__discounts-percent {
+    background-image: url('./percent.svg');
+    background-repeat: no-repeat;
+    height: 210px;
+    width: 172.9053497314453px;
+    margin-top: 20px;
+    margin-left: 140px;
+    position: absolute;
+    z-index: 0;
+}
+
+.mainScreen__discounts-content {
+    background-image: url('./discountsBlockVector.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #FFFFFF;
+    height: 256.5px;
+    width: 299px;
+    position: absolute;
+    z-index: 1;
+}
+
+.mainScreen__discounts-content div:first-child {
+    height: 33.42222213745117px;
+    width: 238.22222900390625px;
+    font-weight: 800;
+    font-size: 34.1333px;
+    line-height: 37px;
+    margin-top: 45.5px;
+    margin-left: 28px;
+}
+
+.mainScreen__discounts-content-promoCode {
+    background-image: url('./promoСode.png');
+    height: 57.315162658691406px;
+    width: 224.61398315429688px;
+    margin-top: 5px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.mainScreen__discounts-content-promoCode p {
+    transform: rotate(-2.87deg);
+    font-weight: 700;
+    font-size: 28.4444px;
+    line-height: 37px;
+    color: #333333;
+    margin-left: 10px;
+}
+
+.mainScreen__discounts-content-shops {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 15px;
+    margin-left: 29px;
+    height: 55px;
+    width: 222px;
+}
+
+.mainScreen__discounts-content button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 68px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 12.8px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: #97D204;
+    margin-top: 23px;
+    margin-left: 29px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+.mainScreen__discounts-content button:hover {
+    background-color: #A4D810;
+    color: #FFFFFF;
+}
