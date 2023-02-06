@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+main {
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
 .helpUsBlock {
     height: 470px;
     width: 1285px;
@@ -17,8 +22,6 @@
 }
 
 .helpUsBlock__leftBlock-title {
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 800;
     font-size: 36px;
     line-height: 42px;
@@ -31,8 +34,6 @@
 
 .helpUsBlock__leftBlock-description {
     margin-top: 30px;
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
@@ -47,8 +48,6 @@
     height: 60px;
     border: 2px solid #EB008D;
     color: #FFFFFF;
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -81,8 +80,6 @@
     box-sizing: border-box;
     padding-top: 16px;
     border-bottom: 1px solid #C4C4C4;
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 800;
     font-size: 16px;
     line-height: 24px;
@@ -99,8 +96,6 @@
 }
 
 .helpUsBlock__rightBlock-item span {
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -113,8 +108,6 @@
 }
 
 .helpUsBlock__rightBlock-link>a {
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 800;
     font-size: 14px;
     line-height: 24px;
@@ -191,8 +184,6 @@
     height: 333px;
     width: 957px;
     border-radius: 19.91111183166504px;
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 800;
     font-size: 36px;
     line-height: 42px;
@@ -239,8 +230,6 @@
     background-image: url('./discountsBlockVector.svg');
     background-repeat: no-repeat;
     background-position-x: right;
-    font-family: 'Nunito';
-    font-style: normal;
     color: #FFFFFF;
     height: 256.5px;
     width: 299px;
@@ -309,4 +298,101 @@
 .mainScreen__discounts-content button:hover {
     background-color: #A4D810;
     color: #FFFFFF;
+}
+
+.mainTitle {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    color: #122537;
+    margin-left: 40px;
+    margin-top: 44px;
+}
+
+.mainMenu {
+    display: flex;
+    margin-left: 23.5px;
+    margin-top: 39px;
+}
+
+.mainMenu__card {
+    height: 168px;
+    width: 128px;
+    margin-left: 16.5px;
+}
+
+.mainMenu__card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #122537;
+    margin-top: 16px;
+    width: 127px;
+}
+
+.mainMenu__card-guidesImg {
+    background-image: url('./menuImg/guides.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-aboutImg {
+    background-image: url('./menuImg/about.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-healthImg {
+    background-image: url('./menuImg/health.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-menuImg {
+    background-image: url('./menuImg/menu.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-eImg {
+    background-image: url('./menuImg/e.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-low_wasteImg {
+    background-image: url('./menuImg/low_waste.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-booksImg {
+    background-image: url('./menuImg/books.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-diyImg {
+    background-image: url('./menuImg/diy.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-petsImg {
+    background-image: url('./menuImg/pets.png');
+    height: 128px;
+    width: 128px;
+}
+
+.mainMenu__card-guidesImg:hover,
+.mainMenu__card-aboutImg:hover,
+.mainMenu__card-healthImg:hover,
+.mainMenu__card-menuImg:hover,
+.mainMenu__card-eImg:hover,
+.mainMenu__card-low_wasteImg:hover,
+.mainMenu__card-booksImg:hover,
+.mainMenu__card-diyImg:hover,
+.mainMenu__card-petsImg:hover {
+    filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.12));
 }
