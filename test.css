@@ -309,6 +309,8 @@ main {
     margin-top: 44px;
 }
 
+/*главное меню*/
+
 .mainMenu {
     display: flex;
     margin-left: 23.5px;
@@ -319,6 +321,14 @@ main {
     height: 168px;
     width: 128px;
     margin-left: 16.5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .mainMenu__card:hover {
+    filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.12));
 }
 
 .mainMenu__card-title {
@@ -385,14 +395,116 @@ main {
     width: 128px;
 }
 
-.mainMenu__card-guidesImg:hover,
-.mainMenu__card-aboutImg:hover,
-.mainMenu__card-healthImg:hover,
-.mainMenu__card-menuImg:hover,
-.mainMenu__card-eImg:hover,
-.mainMenu__card-low_wasteImg:hover,
-.mainMenu__card-booksImg:hover,
-.mainMenu__card-diyImg:hover,
-.mainMenu__card-petsImg:hover {
-    filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.12));
+@media (min-width: 320px) and (max-width: 480px) {
+    .mainScreen {
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .mainScreen__banner {
+        background-size: cover;
+        background-position-x: -65px;
+        height: 208px;
+        width: 95%;
+        font-size: 22px;
+        line-height: 28px;
+        margin-left: 0;
+    }
+
+    .mainScreen__banner div {
+        margin-left: 21px;
+        margin-top: 32px;
+        height: 84px;
+        width: 228px;
+    }
+
+    .mainScreen__banner div:nth-child(2) {
+        padding-top: 0;
+        margin-top: 5px;
+        height: 60px;
+        width: 156px;
+    }
+
+    .mainScreen__banner-hide {
+        display: none;
+    }
+
+    .mainScreen__discounts {
+        background: linear-gradient(194.06deg, #FCF78B -0.1%, rgba(74, 229, 206, 0) 33.63%), #A4D810;
+        height: 69px;
+        width: 95%;
+        margin-left: 0;
+        margin-top: 10px;
+        border: 1px solid red;
+    }
+
+    .mainScreen__discounts-percent {
+        margin-top: 10px;
+        margin-left: 270px;
+        height: 203px;
+        width: 168px;
+    }
+
+    .mainScreen__discounts-content {
+        display: flex;
+        background-position-x: 103%;
+        background-position-y: -45px;
+        height: 69px;
+        width: 91%;
+        border-radius: 16px;
+    }
+
+    .mainScreen__discounts-content div:first-child {
+        height: 33.42222213745117px;
+        width: 238.22222900390625px;
+        font-weight: 800;
+        font-size: 34.1333px;
+        line-height: 37px;
+        margin-top: 45.5px;
+        margin-left: 28px;
+    }
+
+    .mainScreen__discounts-content-promoCode {
+        background-image: url('./promoСode.png');
+        height: 57.315162658691406px;
+        width: 224.61398315429688px;
+        margin-top: 5px;
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .mainScreen__discounts-content-promoCode p {
+        transform: rotate(-2.87deg);
+        font-weight: 700;
+        font-size: 28.4444px;
+        line-height: 37px;
+        color: #333333;
+        margin-left: 10px;
+    }
+
+    .mainScreen__discounts-content-shops {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 15px;
+        margin-left: 29px;
+        height: 55px;
+        width: 222px;
+    }
+
+    .mainScreen__discounts-content button {
+        display: none;
+    }
+
+
+    .mainTitle {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 42px;
+        color: #122537;
+        margin-left: 40px;
+        margin-top: 44px;
+    }
 }
