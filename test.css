@@ -237,21 +237,19 @@ main {
     z-index: 1;
 }
 
-.mainScreen__discounts-content div:first-child {
-    height: 33.42222213745117px;
-    width: 238.22222900390625px;
+.mainScreen__discounts-topContent {
+    margin-left: 29px;
+    margin-top: 45.5px;
     font-weight: 800;
     font-size: 34.1333px;
     line-height: 37px;
-    margin-top: 45.5px;
 }
 
 .mainScreen__discounts-content-promoCode {
     background-image: url('./promoСode.png');
-    height: 57.315162658691406px;
-    width: 224.61398315429688px;
+    height: 57.32px;
+    width: 224.6px;
     margin-top: 5px;
-    /* margin-left: 28px; */
     display: flex;
     align-items: center;
 }
@@ -269,8 +267,8 @@ main {
     font-weight: 500;
     font-size: 16px;
     line-height: 27px;
-    margin-top: 75px;
-    /* margin-left: 35px; */
+    margin-top: 15px;
+    margin-left: 29px;
     height: 55px;
     width: 222px;
 }
@@ -289,7 +287,7 @@ main {
     line-height: 16px;
     color: #97D204;
     margin-top: 23px;
-    /* margin-left: 29px; */
+    margin-left: 29px;
     font-family: 'Nunito';
     font-style: normal;
 }
@@ -398,7 +396,6 @@ a .mainMenu__card:hover {
     .mainScreen {
         flex-direction: column;
         align-items: center;
-        border: 1px solid red;
     }
 
     .mainScreen__banner {
@@ -435,7 +432,6 @@ a .mainMenu__card:hover {
         width: 95%;
         margin-left: 0;
         margin-top: 10px;
-        border: 1px solid red;
     }
 
     .mainScreen__discounts-percent {
@@ -454,7 +450,7 @@ a .mainMenu__card:hover {
         border-radius: 16px;
     }
 
-    .mainScreen__discounts-content div:first-child {
+    /* .mainScreen__discounts-content div:first-child {
         height: 15.353031158447266px;
         width: 109.43118286132812px;
         left: 20.42919921875px;
@@ -465,25 +461,30 @@ a .mainMenu__card:hover {
         margin-left: 20px;
         font-size: 15.6797px;
         line-height: 17px;
+    } */
+
+    .mainScreen__discounts-topContent {
+        margin-left: 20px;
+        margin-top: 15px;
+        font-weight: 800;
+        font-size: 15.6797px;
+        line-height: 17px;
     }
 
     .mainScreen__discounts-content-promoCode {
-        background-image: url('./promoСode.png');
-        height: 57.315162658691406px;
-        width: 224.61398315429688px;
-        margin-top: 5px;
+        background-image: url('./promoСodeMob.png');
+        height: 26.33px;
+        width: 103.18px;
+        /* margin-top: 5px;
         margin-left: 25px;
         display: flex;
-        align-items: center;
+        align-items: center; */
     }
 
     .mainScreen__discounts-content-promoCode p {
-        transform: rotate(-2.87deg);
-        font-weight: 700;
-        font-size: 28.4444px;
-        line-height: 37px;
-        color: #333333;
         margin-left: 10px;
+        font-size: 13.0664px;
+        line-height: 17px;
     }
 
     .mainScreen__discounts-content-shops {
