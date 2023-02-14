@@ -244,7 +244,6 @@ main {
     font-size: 34.1333px;
     line-height: 37px;
     margin-top: 45.5px;
-    margin-left: 28px;
 }
 
 .mainScreen__discounts-content-promoCode {
@@ -252,7 +251,7 @@ main {
     height: 57.315162658691406px;
     width: 224.61398315429688px;
     margin-top: 5px;
-    margin-left: 25px;
+    /* margin-left: 28px; */
     display: flex;
     align-items: center;
 }
@@ -270,8 +269,8 @@ main {
     font-weight: 500;
     font-size: 16px;
     line-height: 27px;
-    margin-top: 15px;
-    margin-left: 29px;
+    margin-top: 75px;
+    /* margin-left: 35px; */
     height: 55px;
     width: 222px;
 }
@@ -290,7 +289,7 @@ main {
     line-height: 16px;
     color: #97D204;
     margin-top: 23px;
-    margin-left: 29px;
+    /* margin-left: 29px; */
     font-family: 'Nunito';
     font-style: normal;
 }
@@ -456,13 +455,16 @@ a .mainMenu__card:hover {
     }
 
     .mainScreen__discounts-content div:first-child {
-        height: 33.42222213745117px;
-        width: 238.22222900390625px;
-        font-weight: 800;
-        font-size: 34.1333px;
-        line-height: 37px;
-        margin-top: 45.5px;
-        margin-left: 28px;
+        height: 15.353031158447266px;
+        width: 109.43118286132812px;
+        left: 20.42919921875px;
+        top: 233px;
+        border-radius: nullpx;
+
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 15.6797px;
+        line-height: 17px;
     }
 
     .mainScreen__discounts-content-promoCode {
@@ -485,13 +487,13 @@ a .mainMenu__card:hover {
     }
 
     .mainScreen__discounts-content-shops {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 27px;
-        margin-top: 15px;
+        margin-top: 21px;
         margin-left: 29px;
-        height: 55px;
-        width: 222px;
+        height: 28px;
+        width: 143px;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 14px;
     }
 
     .mainScreen__discounts-content button {
