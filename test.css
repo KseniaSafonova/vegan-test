@@ -510,4 +510,11 @@ a .mainMenu__card:hover {
         margin-left: 40px;
         margin-top: 44px;
     }
+
+    .mainMenu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0px;
+        margin-top: 39px;
+    }
 }
