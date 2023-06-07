@@ -119,59 +119,7 @@ main {
     text-decoration: none;
 }
 
-@media (min-width: 320px) and (max-width: 414px) {
-    .helpUsBlock {
-        display: block;
-        height: 669px;
-        width: 290px;
-        border-radius: 24px;
-        margin: auto;
-    }
 
-    .helpUsBlock__leftBlock {
-        margin-left: 19px;
-        padding-top: 24px;
-        height: 201px;
-    }
-
-    .helpUsBlock__leftBlock-title {
-        width: 241px;
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 28px;
-    }
-
-    .helpUsBlock__leftBlock-description {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-top: 9px;
-        width: 246px;
-    }
-
-    .helpUsBlock__leftBlock-button {
-        height: 60px;
-        width: 252px;
-        margin-top: 16px;
-    }
-
-    .helpUsBlock__middleBlock {
-        display: none;
-    }
-
-    .helpUsBlock__rightBlock {
-        margin-left: 19px;
-        margin-top: 0;
-        padding-top: 0;
-    }
-
-    .helpUsBlock__rightBlock-item {
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 20px;
-        width: 252px;
-    }
-}
 
 /*главный экран*/
 
@@ -392,7 +340,9 @@ a .mainMenu__card:hover {
     width: 128px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+/* главный экран + меню 320 */
+
+@media (min-width: 320px) {
     .mainScreen {
         flex-direction: column;
         align-items: center;
@@ -443,25 +393,15 @@ a .mainMenu__card:hover {
 
     .mainScreen__discounts-content {
         display: flex;
-        background-position-x: 103%;
-        background-position-y: -45px;
+        background-position-x: 99%;
         height: 69px;
         width: 91%;
         border-radius: 16px;
     }
 
-    /* .mainScreen__discounts-content div:first-child {
-        height: 15.353031158447266px;
-        width: 109.43118286132812px;
-        left: 20.42919921875px;
-        top: 233px;
-        border-radius: nullpx;
-
-        margin-top: 15px;
-        margin-left: 20px;
-        font-size: 15.6797px;
-        line-height: 17px;
-    } */
+    .mainScreen__discounts-content {
+        background-image: url('./menuImgMob/discountsBlockVectorMob.svg');
+    }
 
     .mainScreen__discounts-topContent {
         margin-left: 20px;
@@ -475,21 +415,18 @@ a .mainMenu__card:hover {
         background-image: url('./promoСodeMob.png');
         height: 26.33px;
         width: 103.18px;
-        /* margin-top: 5px;
-        margin-left: 25px;
-        display: flex;
-        align-items: center; */
+        margin-top: 0px;
     }
 
     .mainScreen__discounts-content-promoCode p {
-        margin-left: 10px;
+        margin-left: 5px;
         font-size: 13.0664px;
         line-height: 17px;
     }
 
     .mainScreen__discounts-content-shops {
         margin-top: 21px;
-        margin-left: 29px;
+        margin-left: 12px;
         height: 28px;
         width: 143px;
         font-weight: 700;
@@ -501,20 +438,151 @@ a .mainMenu__card:hover {
         display: none;
     }
 
-
     .mainTitle {
         font-weight: 800;
-        font-size: 36px;
-        line-height: 42px;
+        font-size: 24px;
+        line-height: 28px;
         color: #122537;
-        margin-left: 40px;
-        margin-top: 44px;
+        margin-left: 5px;
+        margin-top: 24px;
     }
 
     .mainMenu {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-left: 0px;
-        margin-top: 39px;
+        margin-top: 24px;
+    }
+
+    .mainMenu__card {
+        height: 126px;
+        width: 86px;
+        margin-left: 5px;
+        margin-top: 9px;
+    }
+
+    .mainMenu__card-title {
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #122537;
+        margin-top: 8px;
+        width: 86px;
+    }
+
+    .mainMenu__card-guidesImg {
+        background-image: url('./menuImgMob/guidesMob.png');
+        height: 86px;
+        width: 86px;
+    }
+
+    .mainMenu__card-aboutImg {
+        background-image: url('./menuImgMob/aboutMob.png');
+        height: 86px;
+        width: 86px;
+    }
+
+    .mainMenu__card-healthImg {
+        background-image: url('./menuImgMob/healthMob.png');
+        height: 86px;
+        width: 86px;
+    }
+
+    .mainMenu__card-menuImg {
+        background-image: url('./menuImgMob/menuMob.png');
+        height: 86px;
+        width: 86px;
+    }
+
+    .mainMenu__card-eImg {
+        background-image: url('./menuImgMob/eMob.png');
+        height: 86px;
+        width: 86px;
+    }
+
+    .mainMenu__card-low_wasteImg {
+        background-image: url('./menuImgMob/low_wasteMob.png');
+        height: 86px;
+        width: 86px;
+    }
+
+    .mainMenu__card-booksImg {
+        background-image: url('./menuImgMob/booksMob.png');
+        height: 86px;
+        width: 86px;
+    }
+
+    .mainMenu__card-diyImg {
+        background-image: url('./menuImgMob/diyMob.png');
+        height: 86px;
+        width: 86px;
+    }
+
+    .mainMenu__card-petsImg {
+        background-image: url('./menuImgMob/petsMob.png');
+        height: 86px;
+        width: 86px;
     }
 }
+
+/* блок помощи проекту 320*/
+
+@media (min-width: 320px) {
+    .helpUsBlock {
+        display: block;
+        height: 669px;
+        width: 290px;
+        border-radius: 24px;
+        margin: auto;
+    }
+
+    .helpUsBlock__leftBlock {
+        margin-left: 19px;
+        padding-top: 24px;
+        height: 201px;
+    }
+
+    .helpUsBlock__leftBlock-title {
+        width: 241px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 28px;
+    }
+
+    .helpUsBlock__leftBlock-description {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 9px;
+        width: 246px;
+    }
+
+    .helpUsBlock__leftBlock-button {
+        height: 60px;
+        width: 252px;
+        margin-top: 16px;
+    }
+
+    .helpUsBlock__middleBlock {
+        display: none;
+    }
+
+    .helpUsBlock__rightBlock {
+        margin-left: 19px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .helpUsBlock__rightBlock-item {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        width: 252px;
+    }
+}
+
+
+@media (min-width: 480px) {}
+
+@media (min-width: 760px) {}
