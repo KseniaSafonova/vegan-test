@@ -342,7 +342,7 @@ a .mainMenu__card:hover {
 
 /* главный экран + меню 320 */
 
-@media (min-width: 320px) {
+@media (width: 320px) {
     .mainScreen {
         flex-direction: column;
         align-items: center;
@@ -528,7 +528,7 @@ a .mainMenu__card:hover {
 
 /* блок помощи проекту 320*/
 
-@media (min-width: 320px) {
+@media (width: 320px) {
     .helpUsBlock {
         display: block;
         height: 669px;
@@ -581,8 +581,3 @@ a .mainMenu__card:hover {
         width: 252px;
     }
 }
-
-
-@media (min-width: 480px) {}
-
-@media (min-width: 760px) {}
